@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Programmerhub</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>Programmerhub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <header>
+    <%= render "shared/navbar" %>
+  </header>
+  <main>
+    <div class="container">
+      <%= yield %>
+    </div>
+  </main>
 
-  <body>
-    <%= yield %>
-  </body>
+  <footer>
+    <%= render "shared/footer" %>
+  </footer>
+</body>
 </html>
