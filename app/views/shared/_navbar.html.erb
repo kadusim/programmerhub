@@ -29,6 +29,8 @@
             </li>
 
             <ul id="dropdown1" class="dropdown-content">
+              <li><%= link_to 'Feed', posts_path %></li>
+              <li class="divider"></li>
               <li><%= link_to 'Profile', user_path(current_user) %></li>
               <li class="divider"></li>
               <li><%= link_to 'Config', edit_user_registration_path(current_user) %></li>
