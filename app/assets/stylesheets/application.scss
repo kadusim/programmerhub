@@ -1,11 +1,11 @@
 @import "materialize";
 @import "material_icons";
-
-@import "pages";
-@import "posts";
-@import "users";
-@import "shared/footer";
 @import "shared/navbar";
+@import "shared/footer";
+@import "pages";
+@import "users";
+@import "posts";
+
 
 main .container {
   margin-top: 20px;
