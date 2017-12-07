@@ -1,5 +1,7 @@
 # Programmer Hub
 
+  * Rede Social baseada no Facebook/Twitter
+
 ## INFORMAÇÕES IMPORTANTES
 
 ### Versões utilizadas
@@ -10,7 +12,8 @@
 ### Códigos utilizados
 
   * Repositório no Github: https://goo.gl/j2GLn4
-  * Código passo a passo usado na aula: Link: https://goo.gl/41gGsy (Protegido por senha)
+  * Código passo a passo usado na aula 1: Link: https://goo.gl/41gGsy (Protegido por senha)
+  * Código passo a passo usado na aula 2: Link: https://goo.gl/8U2TVt (Protegido por senha)
 
 ### Planejamento
 
@@ -19,9 +22,15 @@
   * Planejamento Técnico: https://goo.gl/kBQYtU
   * E-Book Workflow Super Full Stack: https://goo.gl/LwdfPU
 
+### Ferramentas
+
+  * Planejando o banco de dados: http://dbdesigner.net/
+  * Criação dos mockups: https://mockflow.com/
+
 ### Referências citadas na aula
 
   * Tutorial sobre Carrierwave: https://goo.gl/DVVYF2
   * Tutorial sobre CanCanCan: https://goo.gl/HpvhGg
   * Tutorial Pundit: https://goo.gl/hGCL63
   * Tutorial sobre Devise: https://goo.gl/7JA3cT
+  * Documentação do Materialize: https://goo.gl/ZPEHGf
